@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#A5CEE1"
+    android:filterTouchesWhenObscured="true"
+    android:focusableInTouchMode="true"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <Button
+        android:id="@+id/btnActTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/zoom_plate"
+        android:onClick="onClick"
+        android:text="Переход на следующий экран"
+        app:backgroundTint="?attr/colorSecondaryVariant" />
+</LinearLayout>
+
